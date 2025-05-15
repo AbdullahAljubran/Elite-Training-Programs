@@ -1,0 +1,21 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Ignore pip and setuptools files
+*.egg-info/
+dist/
+build/
+
+# Do not ignore requirements files
+!requirements.txt
+!Pipfile
+!Pipfile.lock
